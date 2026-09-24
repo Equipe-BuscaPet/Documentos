@@ -3,7 +3,7 @@
 Organização: **https://github.com/Equipe-BuscaPet**, com 3 repositórios:
 
 - [`BuscaPet-App`](https://github.com/Equipe-BuscaPet/BuscaPet-App) — código (backend, núcleo OpenCL, frontend, infra local)
-- [`Docs`](https://github.com/Equipe-BuscaPet/Docs) — este repositório, com toda a documentação do projeto
+- [`Documentos`](https://github.com/Equipe-BuscaPet/Documentos) — este repositório, com toda a documentação do projeto
 - `.github` — perfil da organização
 
 ## Por que dois repositórios (código e documentação) em vez de um só
@@ -15,7 +15,7 @@ criado antes da arquitetura técnica estar fechada. Como o projeto usa um único
 (`BuscaPet-App`) — evita duplicar CI, versionamento de contrato de API e setup
 de ambiente entre repositórios separados de back e front. A documentação
 (escopo, planejamento, entregas de sprint) fica num repositório à parte
-(`Docs`) porque tem ciclo de vida e público diferente do código — cresce a
+(`Documentos`) porque tem ciclo de vida e público diferente do código — cresce a
 cada sprint independentemente de commits de código, e é o que se anexa/linka
 nas entregas da disciplina.
 
@@ -37,10 +37,10 @@ BuscaPet-App/
   README.md
 ```
 
-## Estrutura deste repositório (`Docs`)
+## Estrutura deste repositório (`Documentos`)
 
 ```
-Docs/
+Documentos/
   README.md                 índice geral
   planejamento/              escopo, plano de sprints, fluxos de tela, notas técnicas
   sprints/
@@ -57,5 +57,6 @@ Docs/
 - [x] Banco de dados criado (Supabase, migration `0001` aplicada — 19 tabelas confirmadas)
 - [x] Workflow de CI configurado
 - [x] Repositórios criados dentro da organização `Equipe-BuscaPet`
-- [ ] Primeiro commit de cada integrante — Nivaldo feito; Kaian e Marlon pendentes
-- [ ] Link definitivo dos repositórios inserido no PDF final antes do envio
+- [x] Primeiro commit de cada integrante em `BuscaPet-App` — Nivaldo, Kaian e Marlon já commitaram
+- [ ] Primeiro commit de Marlon em `Documentos` — só Nivaldo e Kaian commitaram aqui até agora
+- [ ] Link definitivo dos repositórios inserido no PDF final antes do envio (nota: o repositório de documentação foi renomeado de `Docs` para `Documentos` após a geração do `BuscaPet-Sprint2.docx`/`.pdf` — os links nesse PDF ainda apontam para o nome antigo, que não existe mais)

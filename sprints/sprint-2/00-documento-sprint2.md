@@ -581,12 +581,14 @@ documentada na seção 3.1 do MER.
 
 # 5. Protótipo das telas principais
 
-**Protótipo navegável:** https://claude.ai/artifact/CSwz7GcsGKX3WMN1n1kBMY
-_(link privado — usar "Compartilhar" na própria página se for anexar como
-link público no documento final, ou tirar prints das telas abaixo)_
+**Protótipo em alta-fidelidade (Figma):** https://www.figma.com/design/hRa8GLWzc4vvVToGGQ4Zxe/Untitled?node-id=0-1
+_(conferir se o link de compartilhamento está com permissão de visualização
+pública antes de anexar ao documento final — por padrão arquivos Figma são
+privados)_
 
-Também salvo em [`prototipo.html`](prototipo.html) (abrir localmente no navegador
-funciona sem servidor).
+Wireframe original (base para a versão no Figma) também salvo em
+[`prototipo.html`](prototipo.html) (abrir localmente no navegador funciona
+sem servidor).
 
 ## O que está coberto
 
